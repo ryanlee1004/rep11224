@@ -75,11 +75,7 @@ def rank_students(data):
 
 # ===== File and Mark Functions (placeholders for other branches) =====
 
-def create_new_file():
-    print("Create New File: not implemented in this branch yet.")
 
-def load_file():
-    print("Load File: not implemented in this branch yet.")
 def create_new_file():
     global current_data, current_filename
 
@@ -153,33 +149,6 @@ def load_file():
     current_data = loaded
     print(f"File '{current_filename}' loaded successfully.")
 
-# ===== Placeholder Functions for Other Features =====
-
-def enter_weekly_marks():
-    print("Enter Weekly Marks: not implemented in this branch yet.")
-
-def edit_marks():
-    print("Edit Marks: not implemented in this branch yet.")
-
-# ===== View Class Marks (implemented in this branch) =====
-
-def view_class_marks():
-    global current_data
-def view_class_marks():
-    print("View Class Marks: not implemented in this branch yet.")
-
-def edit_marks():
-    print("Edit Marks: not implemented in this branch yet.")
-# ===== Placeholder Functions for File Creation/Loading/Viewing =====
-
-def create_new_file():
-    print("Create New File: not implemented in this branch yet.")
-
-def load_file():
-    print("Load File: not implemented in this branch yet.")
-
-def view_class_marks():
-    print("View Class Marks: not implemented in this branch yet.")
 
 # ===== Enter and Edit Marks (implemented in this branch) =====
 
